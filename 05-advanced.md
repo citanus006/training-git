@@ -1,13 +1,5 @@
 # Advanced techniques and bonus topics
 
-  * Cheating: One step back
-      - `git reset --hard X` (X, HEAD, index, tree)
-      - `git reset --mixed X` (X, HEAD, index)
-      - `git reset --soft X` (X, HEAD)
-      - `git commit --amend` (can be done using soft reset)
-  * Cheating: Creating linear history, patching
-      - `git rebase`
-      - `git cherry-pick`
   * Submodules
       - `git submodule add <repo> <path>`
       - `git submodule init` (activation)

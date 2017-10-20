@@ -7,8 +7,8 @@
       - Merging, conflict resolution
   * Solutions 
       - Backups, archives (tar, zip)
+      - Shared directory (FTP)
       - Patches
-      - Line
   * Decentralized alternatives
       - Mercurial
       - Monotone
@@ -24,7 +24,7 @@
       - Very simple basic usage
       - Advanced tools included and supported
       - Cheap branching
-      - Change maintainance
+      - Change management
   * Getting started
       - Upstream http://git-scm.org/
       - Distribution packages

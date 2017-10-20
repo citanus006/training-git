@@ -27,6 +27,7 @@
       - `git remote`
       - `git remote add origin <repository>`
       - `git fetch <remote> [<src>:<dst>]`
+      - `git fetch --prune`
       - `git pull [<remote> [<src>:<dst>]] (`git fetch` and `git merge`)
       - `git push [-f] <remote> [<src>:<dst>]`
       - `git push <remote> :<branch>` (deletes a remote branch>

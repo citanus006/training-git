@@ -36,3 +36,8 @@
       - `git diff` (index to workdir)
       - `git diff --cached` (HEAD to index)
       - `git diff HEAD` (HEAD to workdir)
+
+Notes:
+
+rm X -> git checkout X
+git rm X -> git checkout HEAD X

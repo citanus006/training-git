@@ -26,3 +26,8 @@
       - `git tag`
       - `git tag -a`, `git tag -s`
       - `git describe -t`
+
+Notes:
+
+`git log -- DELETED_FILE`
+`git log master --`
