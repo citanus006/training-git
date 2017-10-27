@@ -3,7 +3,7 @@
   * Theory: Linear change history
       - Blob (a file)
       - Tree (a directory)
-      - Commit (a snapshot with history)A
+      - Commit (a snapshot with history)
       - Tag (a tag object)
       - master (main branch, `.git/refs/heads/master`)
       - `HEAD` (current branch/commit pointer, `.git/HEAD`)
@@ -26,8 +26,15 @@
       - `git tag`
       - `git tag -a`, `git tag -s`
       - `git describe -t`
+  * Cheating: One step back
+      - `git checkout -f`
+      - `git reset --hard X` (HEAD, index, tree)
+      - `git reset --mixed X` (HEAD, index)
+      - `git reset --soft X` (HEAD)
+      - `git commit --amend` (can be done using soft reset)
 
 Notes:
 
 `git log -- DELETED_FILE`
 `git log master --`
+`git revert`

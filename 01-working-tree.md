@@ -16,7 +16,7 @@
       - `git add <file>`
       - `git rm <file>`
       - `git rm --cached <file>`
-      - `git checkout -- <file>` (undo git rm)
+      - `git checkout -- <file>` (undo rm from working tree)
       - `git mv`
       - `git add -u`
       - `git add .`
